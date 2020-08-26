@@ -1,0 +1,38 @@
+.form{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid green;
+    padding: 4rem;
+    margin: 1.6rem;
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+}
+
+.inp1{
+    border: 3px solid red;
+    border-radius: 20rem;
+    margin: 1rem;
+    width: 15rem;
+    height: 2rem;
+    padding: .5rem;
+    font-size: 1.6rem;
+}
+
+.inp1:hover{
+    outline: none;
+}
+
+.btn1{
+    width: 3rem;
+    height: 1.6rem;
+    background-color: lemonchiffon;
+    color: maroon;
+}
+
+.heading{
+    font-size: 1.6rem;
+}
